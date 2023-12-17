@@ -1,0 +1,293 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+* a{
+    text-decoration: none;
+}
+*{
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.header{
+    border-bottom: 2px solid orangered;
+    position: static;
+    box-shadow: 0px 5px 16px 0px #000;
+    width: 100%;
+    z-index: 2;
+}
+.navbar{
+    height: 65px;
+}
+.navL a img{
+    width: 100px;
+}
+.navL{
+    margin-top: 10px;
+    float: left;
+}
+.navR{
+    margin-top: 8px;
+    float: right;
+    font-size: 15px;
+    display: flex;
+}
+.navR li{
+    list-style: none;
+    padding: 10px;
+    margin: 0px 10px;
+    
+}
+.navR li:hover{
+    border-bottom: 2px solid orangered;
+}
+.navR a{
+    color: black;
+}
+
+.login a{
+    position: relative;
+    top: 10px;
+    border: 2px solid  orangered;
+    padding: 3px 25px;
+    transition: 1s;
+}
+.login a:hover{
+    background-color: orangered;
+    color: white;
+}
+.login {
+    position: relative;
+    display: inline-block;
+    transition: 1s;
+  }
+  
+  .regis {
+    display: none;
+    transition: 1s;
+    position: absolute;
+    z-index: 2;
+    top: 35px;
+  }
+  .regis a{
+    border: none;
+    padding: 5px 10px;
+    border-radius: none;
+    z-index: 2;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: -1px 10px 13px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 10px 13px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 10px 13px 0px rgba(0,0,0,0.75);
+  }
+  .regis a:hover{
+    background-color: orangered;
+    color: white;
+  }
+  .login:hover .regis {
+    display: block;
+  }
+.topwrapper{
+    background-image: url(lain/image/banner2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    background-size: cover;
+    height: 580px;
+
+}
+.topmain{
+    padding-top: 75px;
+}
+.slogan{
+    width: 350px;
+}
+.slogan h1{
+    color: #293231;
+    font-size: 35px;
+}
+.slogan p{
+    color: #162633;
+    font-size: 15px;
+}
+.alamat{
+    position: absolute;
+    width: 290px;
+    height: 355px;
+    top: 458px;
+    padding-left: 45px;
+    background: #52605E;
+    color: white;
+    z-index: 2;
+    border-radius: 0px 10px 0px 0px;
+}
+.alamat p{
+    padding-top: 10px;
+    font-size: 12px;
+    font-weight: 200;
+    padding-bottom: 10px;
+}
+.aldetail img{
+    width: 25px;
+    height: 25px;
+    padding-right: 20px;
+}
+
+.aldetail{
+    display: flex;
+}
+.aldetail p{
+    font-size: 12px; 
+    position: relative;   
+    bottom: 40px;
+    width: 190px;
+
+}
+.transisi{
+    height: 100px;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.687) 26%, rgba(255, 255, 255, 0.835) 31%, rgb(255, 255, 255) 48%);
+    position: relative;
+    bottom: 40px;
+    z-index: 1;
+}
+.midwrapper{
+    margin-top: 50px;
+}
+
+
+
+
+
+.keunggulan{
+    margin: 0 auto;
+    position: relative;
+    justify-items: center;
+    margin-top: 100px;
+}
+.keunggulan h1{
+    text-align: center;
+}
+.keunggulan h1 span{
+    color: orangered;
+}
+.wrapbox{
+    display: flex;
+    margin-top: 50px;
+    color: #293231;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.boxunggul{
+    width: 300px;
+    background-color: #52605e14;
+    padding: 0px 20px;
+    border-radius: 0px 10px 0px 10px;
+}
+
+
+
+
+
+
+
+
+.mid{
+    margin-top: 100px;
+    position: relative;
+    z-index: 1;
+}
+.botwrapper{
+    margin: 0 auto;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(82,96,94,0.25) 25%, rgba(82,96,94,0.5) 30%, rgba(82,96,94,1) 100%)
+    ,url(./lain/image/informasi.png) no-repeat;
+    background-blend-mode: darken;
+
+}
+.informasi{
+    height: 300px;
+    justify-items: center;
+    padding: 10px 0px;
+    
+}
+.mid h1{
+    text-align: center;
+    font-size: 25px;
+}
+.mid span{
+    color: orangered;
+}
+.informasi p{
+    text-align: right;
+    width: 50%;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translate(70%, -70%);
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+.fasilitas{
+    margin-top: 100px;
+    padding: 50px;
+    border-top: 1px solid #2932315d;
+    border-bottom: 1px solid #2932315d;
+}
+
+
+
+.kontak li{
+    list-style: none;
+    
+}
+
+
+
+
+
+
+
+
+
+.footer{
+    max-height: fit-content;
+    padding: 10px;
+    background-color: #293231;
+}
+.foot{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.foot img{
+    width: 100px;
+    height: fit-content;
+    position: relative;
+    top: 10px;  
+}
+.foot p {
+    color: white;
+}
+.foot li a{
+    margin: 0px;
+    color: orangered;
+}
