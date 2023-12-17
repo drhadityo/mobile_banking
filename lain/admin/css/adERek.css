@@ -1,0 +1,192 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+* a{
+    text-decoration: none;
+}
+*{
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+.containerL{
+    margin-left: 10%;
+}
+.containerR{
+    margin-right: 10%;
+}
+
+/*Sidebarrrr*/
+.side{
+    background-color: #52605E;
+    float: left;	
+	width: 23%;
+    border-bottom-right-radius: 10px;
+	height: 100%;
+    color: white;
+}
+
+.profile{
+    margin-top: 70px;
+    display: flex;
+}
+.profile img{
+    height: 70px;
+    border-radius: 100%;
+    border: 3px solid #333;
+}
+.name{
+    margin-top: 5px;
+    width: 150px;
+    margin-left: 5px;
+}
+.name p{
+    margin: 0px;
+}
+.profile .name h2{
+    font-size: 15px;
+    margin: 0px;
+    position: relative;
+}
+.rekening{
+    margin-top: 60px;
+    font-size: 14px;
+}
+
+.menu{
+    margin-top: 50px;
+}
+.menu li {
+    list-style: none;
+    margin: 0px;
+    transition: 1s;
+    padding: 15px 0px;
+    width: 240px;
+    border-top: 1px solid rgba(255, 255, 255, 0.589);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.589);
+    
+}
+.menu a{
+    display: flex;
+}
+.menu li:hover{
+    background-color: rgba(255, 255, 255, 0.472);
+}
+.t li{
+    border: none;
+}
+.menu li a h3{
+    font-weight: 400;
+    position: relative;
+    top: 5px;
+    padding-left:10px ;
+    font-size: 14px;
+    margin: 0px;
+    color: white;
+}
+.menu li a img{
+    width: 30px;
+}
+
+
+
+/*Mainnn*/
+.main{
+    float: right;
+	height: 100%;
+	width: 77%;
+}
+
+.header{
+    background-color: #D9D9D9;
+    position: static;
+    box-shadow: 0px 1px 10px 0px #000;
+    width: 100%;
+    z-index: 2;
+}
+.navbar{
+    height: 67px;
+}
+.navL h2{
+    color: #000;
+   margin: 5px 0px 0px 30px;
+}
+.navL{
+    margin-top: 10px;
+    float: left;
+}
+.navR{
+    margin-top: 8px;
+    float: right;
+    font-size: 15px;
+    display: flex;
+}
+.navR li{
+    list-style: none;
+    padding: 10px;
+    margin: 0px 10px;
+    
+}
+.navR li:hover{
+    border-bottom: 2px solid orangered;
+}
+.navR a{
+    color: black;
+}
+.mainkonten{
+    margin-left: 60px;
+    display: flex;
+}
+.mainkonten a{
+    padding: 0px 18px;
+    font-size: 15px;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 2px;
+    border: 2px solid #52605E;
+    background-color: #eeeeee;
+    color: #52605E;
+}
+.mainkonten a:hover{
+    background-color: #52605E;
+    color: white;
+}
+.editform{
+    margin-top: 90px;
+    margin-left: 20px;
+}
+.editform input{
+    margin-bottom: 20px;
+    padding: 5px;
+    width: 300px;
+    border-radius: 3px;
+    border: 2px solid #52605e9b;
+}
+.submit input{
+    width: 100px;
+    padding: 0px 5px;
+    border-radius: 2px;
+    border: 2px solid #52605E;
+    background-color: #eeeeee;
+    color: #52605E;
+}
+.submit input:hover{
+    background-color: #52605E;
+    color: white;
+}
+.logout a{
+    padding: 3px 10px;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    border: 2px solid white;
+}
+.logout a:hover{
+    background-color: #eeeeee;
+    color: #52605E;
+}
+.logout{
+    margin-top: 80px;
+    padding-bottom: 50px;
+}
